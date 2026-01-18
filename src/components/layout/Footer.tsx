@@ -8,19 +8,19 @@ const Footer = () => {
     {
       name: 'Instagram',
       icon: Instagram,
-      href: '#',
+      href: 'https://www.instagram.com/paathshaalaclasses',
       color: 'hover:text-pink-500',
     },
     {
       name: 'Facebook',
       icon: Facebook,
-      href: '#',
+      href: 'https://www.facebook.com/classespaathshaala',
       color: 'hover:text-blue-600',
     },
     {
       name: 'WhatsApp',
       icon: Phone,
-      href: '#',
+      href: '+917905319717',
       color: 'hover:text-green-500',
     },
   ];
@@ -28,17 +28,17 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: Mail,
-      text: 'info@paathshaalaclasses.com',
-      href: 'mailto:info@paathshaalaclasses.com',
+      text: 'paathshaalaclassespadraun@gmail.com',
+      href: 'mailto:paathshaalaclassespadraun@gmail.com',
     },
     {
       icon: Phone,
-      text: '+91 9876543210',
-      href: 'tel:+919876543210',
+      text: '+91 7905319717',
+      href: 'tel:+917905319717',
     },
     {
       icon: MapPin,
-      text: 'Your Location, City, State',
+      text: 'Shiv Sagar Colony, Chhawani, Padrauna',
       href: '#',
     },
   ];
@@ -63,8 +63,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Your trusted partner in education. We provide quality coaching and
-              comprehensive study materials to help students excel in their academic journey.
+              Paathshaala Classes is a coaching platform for Classes 4–12, offering structured notes, regular practice, and exam-oriented teaching based strictly on NCERT and board patterns.
             </p>
           </motion.div>
 
@@ -134,3 +133,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
