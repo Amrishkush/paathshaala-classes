@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
+import Image from 'next/image';
 
 const Footer = () => {
   const socialLinks = [
@@ -56,7 +57,15 @@ const Footer = () => {
           >
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">P</span>
+                <span className="text-white font-bold text-lg">
+                <Image
+              src="/images/smalllogofavicon.png"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 rounded-lg"
+            />
+                </span>
               </div>
               <span className="text-xl font-bold">
                 Paathshaala <span className="text-blue-400">Classes</span>
@@ -133,4 +142,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
