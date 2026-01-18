@@ -21,7 +21,7 @@ const Footer = () => {
     {
       name: 'WhatsApp',
       icon: Phone,
-      href: '+917905319717',
+      href: 'https://wa.me/917905319717',
       color: 'hover:text-green-500',
     },
   ];
@@ -39,7 +39,7 @@ const Footer = () => {
     },
     {
       icon: MapPin,
-      text: 'Shiv Sagar Colony, Chhawani, Padrauna',
+      text: 'Shiv Sagar Colony, Chhawani, Padrauna, Kushinagar, U.P.',
       href: '#',
     },
   ];
@@ -142,5 +142,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
