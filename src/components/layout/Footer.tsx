@@ -29,8 +29,8 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: Mail,
-      text: 'paathshaalaclassespadraun@gmail.com',
-      href: 'mailto:paathshaalaclassespadraun@gmail.com',
+      text: 'paathshaalaclassespadrauna@gmail.com',
+      href: 'mailto:paathshaalaclassespadrauna@gmail.com',
     },
     {
       icon: Phone,
@@ -142,6 +142,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
