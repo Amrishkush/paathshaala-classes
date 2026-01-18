@@ -84,7 +84,7 @@ const ContentSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Access quality education materials and resources to excel in your studies
+            Your Future Our Mission. 
           </motion.p>
           
           <motion.div 
@@ -222,4 +222,5 @@ const ContentSection = () => {
 };
 
 export default ContentSection;
+
 
