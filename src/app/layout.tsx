@@ -12,7 +12,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "PaathshaalaClasses - Your Future Our Mission.",
+  title: "Paathshaala Classes - Your Future Our Mission.",
   description: "Learn from the best with PaathshaalaClasses. Access notes, videos, and quality coaching.",
   icons: {
     icon: '/images/smalllogofavicon.png',
