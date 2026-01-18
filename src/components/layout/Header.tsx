@@ -103,13 +103,18 @@ const Header = () => {
           </DialogHeader>
           <div className="space-y-4">
             <p className="text-gray-600">
-              Welcome to Paathshaala Classes - your premier destination for quality education and academic excellence.
+              Paathshaala Classes is a student-centric coaching initiative dedicated to building strong academic foundations for Classes 9 to 12. Our teaching approach focuses on concept clarity, NCERT-aligned content, and exam-oriented practice, ensuring that students not only understand subjects deeply but also perform confidently in board examinations.
             </p>
             <p className="text-gray-600">
-              We provide comprehensive study materials, expert guidance, and innovative teaching methods to help students achieve their academic goals.
+              Our goal is not short-term results, but long-term understanding and confidence that stays with students beyond examinations.
+              The name “Paathshaala Classes” reflects our belief in learning as a guided journey, rooted in simplicity and sincerity.
             </p>
             <p className="text-gray-600">
-              Our mission is to make quality education accessible to all students, empowering them with knowledge and skills for a bright future.
+              At Paathshaala Classes, we believe that true learning comes from clear fundamentals, regular practice, and disciplined revision. 
+              Our study material and classroom teaching are carefully designed to support students at every level — especially those who struggle with basics — while maintaining high academic standards.
+            </p>
+            <p className="text-gray-600">
+              The name was thoughtfully suggested by Pratikey Jaiswal.
             </p>
           </div>
         </DialogContent>
@@ -119,3 +124,4 @@ const Header = () => {
 };
 
 export default Header;
+
